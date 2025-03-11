@@ -2,26 +2,54 @@
 
 This project demonstrates how to implement **Google Authentication** in a React app using **Firebase**, **TypeScript**, and **Vite**. It allows users to sign in with their Google account and access protected content.
 
+🚀 [**View Demo**](https://elena-savitskaya.github.io/react-auth/)
+
 ## Project Structure
 
 - **React** — Library for building user interfaces.
 - **TypeScript** — Strictly typed JavaScript for reliable code.
 - **Vite** — Fast build and development tool.
 - **Firebase** — Firebase Authentication used for Google login.
+Follow the steps below to get the project running on your local machine.
 
-## Installation and Running
+## Installation & Setup
 
-### Install Dependencies
+Follow the steps below to get the project running on your local machine.
 
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/elena-savitskaya/react-auth.git
+```
+cd react-auth
+
+### 2. Install Dependencies
+Run the following command to install all the required dependencies:
+
+```bash
 npm install
+```
 
-### Run in Development Mode
+### 3. Run in Development Mode
+To start the development server with Hot Module Replacement (HMR), run:
 
+```bash
 npm run dev
+```
 
-### Build the Project
+### 4. Build the Project
+To build the project for production, use:
 
+```bash
 npm run build
+```
+
+### 5. Preview the Build
+You can preview the production build by running:
+
+```bash
+npm run preview
+```
 
 ### Environment Variables
 
